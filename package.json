@@ -1,0 +1,44 @@
+{
+    "name": "@toshiara/helper-functions",
+    "version": "0.1.0",
+    "description": "helper functions for math/statistics (commonjs/esm)",
+    "author": "Toshiaki Ara",
+    "license": "MIT",
+    "keywords": [
+        "typescript",
+        "commonjs",
+        "esm"
+    ],
+    "scripts": {
+        "build": "tsc -p . && tsc -p tsconfig.cjs.json && tsconfig-to-dual-package",
+        "link": "npm link @toshiara/helper-functions",
+        "unlink": "npm unlink @toshiara/helper-functions"
+    },
+    "devDependencies": {
+        "npm-check-updates": "^16.14.15",
+        "tsconfig-to-dual-package": "^1.2.0",
+        "typescript": "^5.3.3"
+    },
+    "main": "./dist/cjs/index.js",
+    "type": "module",
+    "exports": {
+        ".": {
+            "import": {
+                "types": "./dist/esm/index.d.ts",
+                "default": "./dist/esm/index.js"
+            },
+            "require": {
+                "types": "./dist/cjs/index.d.ts",
+                "default": "./dist/cjs/index.js"
+            },
+            "default": "./dist/cjs/index.js"
+        }
+    },
+    "types": "./dist/esm/index.d.ts",
+    "module": "./dist/esm/index.js",
+    "homepage": "https://github.com/toshi-ara/helper-functions",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/toshi-ara/helper-functions"
+    }
+}
