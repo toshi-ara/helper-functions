@@ -1,6 +1,6 @@
 {
     "name": "@toshiara/helper-functions",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "helper functions for math/statistics (commonjs/esm)",
     "author": "Toshiaki Ara",
     "license": "MIT",

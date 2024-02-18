@@ -1,6 +1,6 @@
 {
   "name": "@toshiara/helper-functions",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "helper functions for math/statistics (commonjs/esm)",
   "author": "Toshiaki Ara",
   "license": "MIT",
@@ -12,8 +12,7 @@
   "scripts": {
     "build": "tsc -p . && tsc -p tsconfig.cjs.json && tsconfig-to-dual-package",
     "link": "npm link @toshiara/helper-functions",
-    "unlink": "npm unlink @toshiara/helper-functions",
-    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+    "unlink": "npm unlink @toshiara/helper-functions"
   },
   "devDependencies": {
     "npm-check-updates": "^16.14.15",

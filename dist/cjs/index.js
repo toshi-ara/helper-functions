@@ -19,4 +19,7 @@ __exportStar(require("./isFunction.js"), exports);
 __exportStar(require("./isInteger.js"), exports);
 __exportStar(require("./isNegativeZero.js"), exports);
 __exportStar(require("./isNumber.js"), exports);
+__exportStar(require("./isLittleEndian.js"), exports);
+__exportStar(require("./copysign.js"), exports);
+__exportStar(require("./setLowWord.js"), exports);
 __exportStar(require("./polyval.js"), exports);
